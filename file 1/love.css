@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:20px;
+    font-family:"Poppins",Roboto;
+    font-weight: 400;
+}
+
+body{
+    background-color:rgb(22,22,22);
+    color:white;
+}
+
+#header{
+    display:flex;
+    justify-content:space-around;
+    padding:20px 5px;
+}
+.nav{
+
+}
+.nav nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 5px 20px;
+}
+
+.btn-login-container button{
+    padding:5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-login-container button:nth-child(2){
+    background-color:rgb(153, 55, 12);
+    color: white;
+}
